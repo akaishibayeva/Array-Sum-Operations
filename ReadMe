@@ -1,0 +1,20 @@
+You have an identity permutation of N integers as an array initially. An identity permutation of N integers is [1,2,...,N-1,N].
+In this task, you have to perform M operations on the array and report the sum of the elements of the array after each opertion.
+
+The i^th operation consists of an integer op_i.
+
+If the array contains op_i, swap the first and last elements in the array.
+Else, remove the last element of the array and push op_i to the end of the array.
+
+Input Format
+
+The first line contains two space separated integers N and M.
+Then, M lines follow denoting the operations op_i.
+Constraints
+
+2 <= N, M <= 10^5
+1 <= op_i <= 5*10^5
+
+Output Format
+
+Print M lines, each containing a single integer denoting the answer to each of the M operations.
